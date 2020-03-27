@@ -12,3 +12,5 @@ Array reduce accepts two arguments: a callback method (reducer function) to run 
 The reducer function (callback) takes four arguments: Accumulator (acc), Current Value (cur), Current Index (idx), Source Array (src)
 
 This Array reduce polyfill is inspired by MDN polyfill, except with more detailed comments, better naming and better error handling. Including some test scenarios.
+
+p.s. thank GOD that nowdays we have const, arrow functions and of course reduce out of the box
